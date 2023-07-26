@@ -1,16 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_abs.h                                           :+:      :+:    :+:   */
+/*   ft_point.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nbiron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/26 14:19:41 by nbiron            #+#    #+#             */
-/*   Updated: 2023/07/26 14:24:13 by nbiron           ###   ########.fr       */
+/*   Created: 2023/07/26 14:25:37 by nbiron            #+#    #+#             */
+/*   Updated: 2023/07/26 18:45:01 by nbiron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_ABS_H
-# define FT_ABS_H
-# define ABS(Value) "((Value < 0) ? Value * -1 : Value)"
+#ifndef FT_POINT_H
+# define FT_POINT_H
+
+# define t_point "struct t_point"
+
+struct t_point
+{
+	int x;
+	int y;
+};
+# define point "tab[2]"
+ 
 #endif
