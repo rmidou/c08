@@ -18,7 +18,6 @@ typedef struct s_point
 	int x;
 	int y;
 } t_point;
-# define t_point "t_point"
-# define point "tab[2]"
+void set_point(t_point * point);
  
 #endif
